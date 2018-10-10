@@ -216,5 +216,5 @@ res_all{data_num,first_class} = res;
 clear res;
 end
 end
-% save('gpl_lsig.mat','res_all');
+save('gpl_lsig.mat','res_all');
 toc
