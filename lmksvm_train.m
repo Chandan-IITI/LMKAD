@@ -1,13 +1,4 @@
 
-%%%% Following script is used from the following reference:
-
-% Localized Multiple Kernel Support Vector Machine (LMKSVM)
-% Reference
-%   gonen08icml
-%   Localized Multiple Kernel Learning
-%   Mehmet Gonen, Ethem Alpaydin
-%   Proceedings of the 25th International Conference on Machine Learning, 2008
-
 % Summary
 %   trains LMKSVM on training data with given parameters
 
@@ -18,8 +9,10 @@
 % Output(s)
 %   mod: LMKSVM model
 
-% Mehmet Gonen (gonen@boun.edu.tr)
-% Department of Computer Engineering, Bogazici University
+%%% Author: Chandan Gautam, Ramesh Balaji, K. Sudharsan 
+%%%% We modified the code written by Mehmet Gonen (gonen@boun.edu.tr, Department of Computer Engineering, Bogazici University)
+%%%% for one-class classification task. This code was originally written for % Localized Multiple Kernel Support Vector Machine (LMKSVM) 
+%%%% and published in Proceedings of the 25th International Conference on Machine Learning, 2008
 
 function [mod,model2] = lmksvm_train(tra, par)
     rand('twister', par.see); %#ok<RAND>
