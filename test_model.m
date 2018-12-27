@@ -1,3 +1,11 @@
+% Reference
+%   gonen08icml
+%   Localized Multiple Kernel Learning
+%   Mehmet Gonen, Ethem Alpaydin
+% Mehmet Gonen (gonen@boun.edu.tr)
+% Department of Computer Engineering, Bogazici University
+%   Proceedings of the 25th International Conference on Machine Learning, 2008
+
 function [a output] = test_model(test_data,test_labels,model,model2,kernels,c)
 
 %test the LMKAD model
