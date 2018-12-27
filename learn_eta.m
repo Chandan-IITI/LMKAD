@@ -1,3 +1,11 @@
+% Reference
+%   gonen08icml
+%   Localized Multiple Kernel Learning
+%   Mehmet Gonen, Ethem Alpaydin
+% Mehmet Gonen (gonen@boun.edu.tr)
+% Department of Computer Engineering, Bogazici University
+%   Proceedings of the 25th International Conference on Machine Learning, 2008
+
 function [alp, eta, mod, obj, yyKeta, model2] = learn_eta(tra, par, yyKm, alp, eta, mod, obj, yyKeta,model2)
     sup = find(alp ~= 0);
     gra = eta_gradient_lmk(alp(sup), yyKm(sup, sup, :), eta(sup, :), [ones(size(sup, 1), 1), mod.loc(sup, :)], mod.gat, par.gat.typ);
