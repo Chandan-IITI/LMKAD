@@ -1,7 +1,8 @@
 % Reference
 %%% Author: Chandan Gautam, Ramesh Balaji, K. Sudharsan 
 %%%% We modified the code written by Mehmet Gonen (gonen@boun.edu.tr, Department of Computer Engineering, Bogazici University)
-%%%% for one-class classification task.
+%%%% for one-class classification task. This code was originally written for % Localized Multiple Kernel Support Vector Machine (LMKSVM) 
+%%%% and published in Proceedings of the 25th International Conference on Machine Learning, 2008
 
 function [a output] = test_model(test_data,test_labels,model,model2,kernels,c)
 
