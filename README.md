@@ -1,4 +1,4 @@
-# LMKAD (Accepted in Knowledge-Based Systems, Elsevier (IF: 4.396))
+# Paper
 C. Gautam, R. Balaji, K. Sudharsan, A. Tiwari, and K. Ahuja, Localized Multiple Kernel Learning for Anomaly Detection: One-Class Classification, 2018. 
 
 https://www.sciencedirect.com/science/article/pii/S0950705118305823
