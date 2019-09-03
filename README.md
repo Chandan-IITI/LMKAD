@@ -1,5 +1,5 @@
 # Paper
-### C. Gautam, R. Balaji, K. Sudharsan, A. Tiwari, and K. Ahuja, Localized Multiple Kernel Learning for Anomaly Detection: One-Class Classification, 2018. 
+### C. Gautam, R. Balaji, K. Sudharsan, A. Tiwari, and K. Ahuja, Localized Multiple Kernel Learning for Anomaly Detection: One-Class Classification, Knowledge-Based Systems, vol. 165, pp. 241-252, 2018 (ELSEVIER).
 
                   https://www.sciencedirect.com/science/article/pii/S0950705118305823
 
