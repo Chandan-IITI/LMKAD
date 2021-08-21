@@ -12,6 +12,6 @@
 
 3. Then execute 'Extract_all_results.m' file. It will yield results of all  mentioned datasets in the paper in the MATLAB workspace.
 
-### After following above three steps, you should get excat results as mentioned in paper.
+### After following above three steps, you should get exact results as mentioned in paper.
 
 ### For any query related to the above code, you can reach me at chandangautam31@gmail.com
